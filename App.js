@@ -179,9 +179,6 @@ export default function App() {
               <TouchableOpacity onPress={() => handlePressButtonAsync('https://wa.me/5492342463584')}>
                 <FontAwesome name="whatsapp" size={24} color="#FFFFFF" />
               </TouchableOpacity>
-              <TouchableOpacity onPress={() => handlePressButtonAsync('https://www.facebook.com/oscar.zacarias.355744?mibextid=ZbWKwL')}>
-                <FontAwesome5 name="facebook" size={24} color="#FFFFFF" />
-              </TouchableOpacity>
               <TouchableOpacity onPress={() => handlePressButtonAsync('https://www.instagram.com/launoradio?igsh=MWViMTFia3ZnOHRpOQ==')}>
                 <FontAwesome name="instagram" size={24} color="#FFFFFF" />
               </TouchableOpacity>
