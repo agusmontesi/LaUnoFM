@@ -160,8 +160,8 @@ export default function App() {
               <Menu.Item onPress={() => handlePressButtonAsync('https://www.launoradio.com/')} title="Visite nuestra web" />
               <Menu.Item onPress={onShare} title="Dile a un amigo" />
               <Menu.Item onPress={handleOpenEmail} title="Contáctenos" />
-              <Menu.Item onPress={() => handlePressButtonAsync('https://www.areapositiva.com/politicas-de-privacidad')} title="Política de privacidad" />
-              <Menu.Item onPress={() => handlePressButtonAsync('https://www.areapositiva.com/terminos-de-uso')} title="Términos de uso" />
+              {/* <Menu.Item onPress={() => handlePressButtonAsync('https://www.launoFM.com/politicas-de-privacidad')} title="Política de privacidad" /> */}
+              {/* <Menu.Item onPress={() => handlePressButtonAsync('https://www.launoFM.com/terminos-de-uso')} title="Términos de uso" /> */}
             </Menu>
           </View>
           <View style={styles.logoContainer}>
